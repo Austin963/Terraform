@@ -80,7 +80,7 @@ resource "aws_route_table_association" "b" {
   route_table_id = aws_route_table.example.id
 }
 resource "aws_key_pair" "tf-key" {
-  key_name   = "tf-key"
+  key_name   = "tf-key2"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXktN/pEG3nQmlHKULLPDjX+0f31DEmpjYR255BamInAajqBmM2UH/ERv8VL/rpbQ7HiHe2/rdq0euwQJDqXURrmni1IMg1OOtOnjPHMxmkMOLoLfjqlZH5Wzkvw4g4D1Nkq+VuUslDfSypBzdpoBeWP9HAU4LvVdrNtPDK0ddacgEkELx8c6b06Ni69MRr52lvXNVxQA3r3ojDIRQ5zQE+TOkcC4vOq4xgO96FD7xP3pLtqg3dwHouhbQrpAqjDPh/CcCs6eWSRJt6ZGkNjKnW3s44cxOVfQcmkJ0aLrQucfjvTZCnTCcGylAK+xWcxN/8ZWPqtJ2fBo08Ql2xarp d00414848@desdemona"
 }
 
